@@ -31,7 +31,14 @@ display.show(Image.HAPPY)
 
 ```python
 
-diagonal = Image(“90000:09000:00900:00090:00009”) # 0 off, 1..9
+diagonal = Image(
+		“90000:"
+		"09000:"
+		"00900:"
+		"00090:"
+		00009”
+		) # 0 off, 1..9
+		
 display.show(diagonal)
 
 ```
