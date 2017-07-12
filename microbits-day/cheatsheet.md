@@ -36,7 +36,7 @@ diagonal = Image(
 		"09000:"
 		"00900:"
 		"00090:"
-		00009”
+		"00009”
 		) # 0 off, 1..9
 		
 display.show(diagonal)
