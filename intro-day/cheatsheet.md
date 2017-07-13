@@ -14,7 +14,9 @@ Comments start with a hash and affect the rest of the line
 
 ### Scope
 
-### Globals
+
+### Globals
+
 
 ## Strings
 
