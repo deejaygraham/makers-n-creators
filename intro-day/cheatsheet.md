@@ -23,6 +23,20 @@ Comments start with a hash and affect the rest of the line
 
 ### Output
 
+```python
+
+print('hello, world')
+
+```
+
+or 
+
+```python
+
+print("hello, world")
+
+```
+
 ### Input
 
 ## Lists
