@@ -2,6 +2,14 @@
 
 ## Comments
 
+Comments start with a hash and affect the rest of the line
+
+```python
+
+# this is a cool piece of code !
+
+```
+
 ## Strings
 
 ### Concatenation
