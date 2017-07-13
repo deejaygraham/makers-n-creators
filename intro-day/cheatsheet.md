@@ -36,7 +36,7 @@ Comments start with a hash and affect the rest of the line
 
 ## Functions
 
-### No argumnets
+### No arguments
 
 ```python
 
@@ -54,7 +54,7 @@ def say_something(message):
 
 ```
 
-### Return a Value
+### Returning a Value
 
 ```python
 
