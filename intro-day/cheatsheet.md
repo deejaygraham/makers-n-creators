@@ -129,18 +129,17 @@ def make_full_name(first_name, last_name):
 
 ```python
 
-class Horse():
+class Dog():
  
- def __init__(self):
-    # initialization code goes here
-    self.colour = 'black'
+ def __init__(self, name):
+    self.name = name
     
- def canter(self):
-    self.run(slowly)
+ def sit(self):
+    print(name + ' is sitting')
     return True
 
- def speak(self, message):
-    print(message + ", neigh")
+ def speak(self):
+    print(name + ' says woof')
     
 ```
 
@@ -148,7 +147,11 @@ class Horse():
 
 ```python
 
-my_lovely_horse = Horse()
+my_dog = Dog('Inca')
+your_dog = Dog('Rover')
+
+my_dog.sit()
+your_dog.speak()
 
 ```
 
