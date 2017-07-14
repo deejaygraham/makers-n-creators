@@ -141,6 +141,9 @@ class Dog():
  def speak(self):
     print(name + ' says woof')
     
+ def rate(self):
+    print('13/10')
+    
 ```
 
 ### Instantiation
