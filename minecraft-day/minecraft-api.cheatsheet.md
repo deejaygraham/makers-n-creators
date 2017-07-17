@@ -24,7 +24,7 @@ world = minecraft.Minecraft.create()
 
 ```python
 
-msg = “Hello world”
+msg = "Hello world"
 
 world.postToChat(msg)
 
