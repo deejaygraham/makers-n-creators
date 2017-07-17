@@ -39,7 +39,22 @@ full_path = folder + "\" + file_name
 
 ## Numbers
 
+```python
+
+house_number = 25
+weight = 17.9
+
+```
+
 ## Booleans
+
+```python
+
+True 
+
+False
+
+```
 
 ## Lists
 
@@ -74,18 +89,22 @@ words.append('sat')
 
 ### Comparsions
 
-* ==
-* !=
-* >
-* <
-* >=
-* <=
+```
+
+==
+!=
+>
+<
+>=
+<=
+
+```
 
 ## Conditions
 
 ### If
 
-If <condition> must be followed by a colon. Code belonging to the if must be indented below it. You will get an error if the indent is too big or too small or inconsistent.
+If <condition> must be followed by a colon. Code belonging to the if must be indented below it. You will get an error if the indent is too big or too small or inconsistent. 
 
 ```python
 
@@ -101,29 +120,8 @@ if 'fox' in words:
 
 ```
 
-Else and Else If conditions are allowed but not Else If is *elif*
+Else and Else If conditions are allowed but not Else If is *elif*. Multiple conditions can be joined together in an if using *and* & *or* keywords.
 
-
-## Scope and Globals
-
-Because variables are created when first mentioned, it can be difficult to decide (and hint to python) between a variable in a function scope or at the global scope.
-
-```python 
-
-name = 'jake'
-
-def print_name():
-    print(name)    # Not assigning so don't need 'global'
-
-def change_name(new_name):
-    global name    # hint we are now talking about global variable
-    name = new_name
-
-print_name()
-change_name('finn')
-print_name()  
-
-```
 
 ## Console 
 
@@ -161,9 +159,46 @@ answer = input('tell me your name ?')
 
 ```
 
-
-
 ## Iteration
+
+### While
+
+```python
+
+# forever...
+while True:
+    print('everything is awesome')
+    
+```
+
+Break and Continue are available and work as expected.
+
+### For
+
+```python
+
+# numbers 0..100
+for number in range(101):
+    print(str(number))
+    
+```
+
+
+```python
+
+# numbers 1..100
+for number in range(1, 101):
+    print(str(number))
+    
+```
+
+```python
+
+# numbers 3,4,5,6,7
+for number in range(3, 8):
+    print(str(number))
+    
+```
 
 ## Functions
 
@@ -192,6 +227,27 @@ def say_something(message):
 def make_full_name(first_name, last_name):
   return first_name + " " + last_name
   
+```
+
+### Scope and Globals
+
+Because variables are created when first mentioned, it can be difficult to decide (and hint to python) between a variable in a function scope or at the global scope.
+
+```python 
+
+name = 'jake'
+
+def print_name():
+    print(name)    # Not assigning so don't need 'global'
+
+def change_name(new_name):
+    global name    # hint we are now talking about global variable
+    name = new_name
+
+print_name()
+change_name('finn')
+print_name()  
+
 ```
 
 ## Classes
