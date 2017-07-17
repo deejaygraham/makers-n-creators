@@ -19,16 +19,92 @@ Comments start with a hash and affect the rest of the line
 
 ## Strings
 
+```python
+
+# create and assign
+greeting = 'hello world'
+
+# or 
+greeting = "hello world"
+
+```
+
 ### Concatenation
+
+```python
+
+full_path = folder + "\" + file_name
+
+```
 
 ## Numbers
 
 ## Booleans
 
+## Lists
 
-## Variables
+```python
 
-### Globals
+words = [ 'the', 'quick', 'brown', 'fox' ]
+first = words[0]
+last = words[-1]
+
+```
+
+### Iteration
+
+```python
+
+for word in words:
+    print(word)
+    
+```
+
+### Append
+
+```python
+
+words = []
+
+words.append('the')
+words.append('cat')
+words.append('sat')
+
+```
+
+### Comparsions
+
+* ==
+* !=
+* >
+* <
+* >=
+* <=
+
+## Conditions
+
+### If
+
+If <condition> must be followed by a colon. Code belonging to the if must be indented below it. You will get an error if the indent is too big or too small or inconsistent.
+
+```python
+
+if name == 'bob':
+    print('hi bob!')
+    
+```
+
+```python
+
+if 'fox' in words:
+    print('found a fox')
+
+```
+
+Else and Else If conditions are allowed but not Else If is *elif*
+
+
+## Scope and Globals
 
 Because variables are created when first mentioned, it can be difficult to decide (and hint to python) between a variable in a function scope or at the global scope.
 
@@ -85,11 +161,6 @@ answer = input('tell me your name ?')
 
 ```
 
-## Lists
-
-## Conditions
-
-### If
 
 
 ## Iteration
