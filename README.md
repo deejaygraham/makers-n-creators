@@ -14,11 +14,11 @@ Code and support materials for a five-day makers and creators week.
 
 ### Agenda
 
-Day 1 - Introduction to Python
-Day 2 - BBC Micro:bit
-Day 3 - Minecraft(s)
-Day 4 - Lego Robots
-Day 5 - Projects and Show-n-Tell
+* Day 1 - Introduction to Python
+* Day 2 - BBC Micro:bit
+* Day 3 - Minecraft(s)
+* Day 4 - Lego Robots
+* Day 5 - Projects and Show-n-Tell
 
 
 ## Day 1
