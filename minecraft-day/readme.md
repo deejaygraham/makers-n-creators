@@ -5,4 +5,13 @@ using python scripts.
 
 Later we can try modding another version of Minecraft, written in python, on the laptop.
 
-### Exercises
+### Content
+
+#### Morning
+
+#### Afternoon
+
+### For Mentors
+
+* [Minecraft Cheatsheet](cheatsheet.md)
+
