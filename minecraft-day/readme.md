@@ -9,9 +9,20 @@ Later we can try modding another version of Minecraft, written in python, on the
 
 #### Morning
 
+* [Hello! Minecraft World](2.1-hello-world.md)
+* [Frozen](2.1-frozen.md)
+* [Teleport](2.1-teleport.md)
+* [Build a House](2.3-build-a-house.md)
+* [Build a Pyramid](2.4-build-a-pyramid.md)
+
+
 #### Afternoon
+
+* [Minecraft Clone](3.1-minecraft-clone.md)
+* [Microbit Game Controller](3.2-minecraft-microbit-game-controller.md)
+
 
 ### For Mentors
 
-* [Minecraft Cheatsheet](cheatsheet.md)
+* [Minecraft API Cheatsheet](minecraft-api.cheatsheet.md)
 
