@@ -1,24 +1,6 @@
-## Introduction Day
+## Introduction to PythonDay
 
-Introducing the week of activities.
-
-5 days to:
-
-* write code
-* play with hardware
-* building games
-* BBC Micro:bit
-* Rapsberry Pi
-* Robots
-
-#### Agenda
-
-* Day 1 - Introduction to Python
-* Day 2 - BBC Micro:bit
-* Day 3 - Minecraft(s)
-* Day 4 - Lego Robots
-* Day 5 - Projects and Show-n-Tell
-
+Download Python for [Windows](https://www.python.org/downloads/windows/) and an [editor](http://atom.io)
 
 ### Content
 
