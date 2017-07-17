@@ -17,7 +17,7 @@ from microbic import *
 
 ```python
 
-display.scroll(‘hello there!’)
+display.scroll('hello there!')
 
 ```
 
@@ -32,11 +32,11 @@ display.show(Image.HAPPY)
 ```python
 
 diagonal = Image(
-		“90000:"
+		"90000:"
 		"09000:"
 		"00900:"
 		"00090:"
-		"00009”
+		"00009"
 		) # 0 off, 1..9
 		
 display.show(diagonal)
@@ -81,7 +81,7 @@ sleep(2000)   # two seconds
 ```python
 
 if button_a.was_pressed(): # also button_b
-	message = “You pressed button A”
+	message = "You pressed button A"
 
 ```
 
@@ -99,8 +99,8 @@ height_off_ground = accelerometer.get_z()
 
 ```python
 
-if accelerometer.was_gesture(“shake"):
-	message = “Shaking”
+if accelerometer.was_gesture("shake"):
+	message = "Shaking"
 
 ```
 
@@ -109,7 +109,7 @@ if accelerometer.was_gesture(“shake"):
 ```python
 
 if pin0.is_touched():  # also pin1 and pin2
-	message = “You touched pin 0”
+	message = "You touched pin 0"
 
 ```
 
@@ -134,7 +134,7 @@ music.play(tune)
 
 import speech
 
-speech.say("Hello, World”)
+speech.say("Hello, World")
 
 ```
 
@@ -144,7 +144,7 @@ speech.say("Hello, World”)
 
 radio.on()
 
-radio.send(‘shake') # Send a message to others
+radio.send('shake') # Send a message to others
         
 message = radio.receive() # Read any incoming messages.
 
