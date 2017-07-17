@@ -50,6 +50,7 @@ x = forward (into screen) and backward
 y = up and down (elevation)
 z = left and right
 
+
 ### Where Am I
 
 ```python
@@ -65,7 +66,6 @@ while True:
 
 ```
 
-
 ### Changing My Position
 
 ```python
@@ -78,12 +78,13 @@ world.player.setPos(x, y, z)
 
 ```
 
+
 ### Player Ground
 
 To get what block the player is standing on, substract 1 from their y position.
 
 
-### Blocks
+### Blocks
 
 Block types (stone, grass, water, air) are identified by a numeric ids - either as plain integer values or as block values.
 
@@ -104,6 +105,7 @@ world.setBlock(x, y, z, block.STONE.id)
 
 ```
 
+
 ### Interrogating Blocks
 
 Find out what kind of block is at a location using:
@@ -113,6 +115,7 @@ Find out what kind of block is at a location using:
 block_id = world.getBlock(x, y, z)
 
 ```
+
 
 ### Deleting Blocks
 
