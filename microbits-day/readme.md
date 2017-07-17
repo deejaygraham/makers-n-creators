@@ -14,6 +14,7 @@ Building tiny games and applications on the BBC Micro:bit using Python.
 * [Boom Box / Mbira](2.5-boom-box-or-mbira.md)
 * [Theremin](2.6-theremin.md)
 
+
 ### Afternoon
 
 * [Treasure Hunt](3.1-treasure-hunt.md)
