@@ -6,6 +6,10 @@ Download Python for [Windows](https://www.python.org/downloads/windows/) and an 
 
 #### Morning
 
+* [Hello Python](1.1-hello-python.md)
+* [Lions and Tigers and Bears](1.2-lions-and-tigers-and-bears.md)
+
+
 #### Afternoon
 
 ### For Mentors
