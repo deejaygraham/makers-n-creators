@@ -4,9 +4,19 @@ title: Introduction to Python
 ---
 {% assign counter=0 %}
 
-{% site.collections %}
+collections
+{% for collection in site.collections %}
+collection
+{% for page in collection %}
+page
+<p>
+{{ page.content }}
+</p>
+{% endfor %}
+{% endfor %}
 
 Hello this is my list of intros:
+
 {% for post in site.collections.intro reversed %}
 {% assign counter=counter | plus:1 %}
 <section>
