@@ -4,6 +4,8 @@ title: Introduction to Python
 ---
 {% assign counter=0 %}
 
+{% site.collections %}
+
 Hello this is my list of intros:
 {% for post in site.collections.intro reversed %}
 {% assign counter=counter | plus:1 %}
