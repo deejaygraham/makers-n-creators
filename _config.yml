@@ -1,9 +1,9 @@
 theme: jekyll-theme-tactile
 collections:
-  intro
-  microbits
-  minecraft
-  robots
-  projects
+  - intro
+  - microbits
+  - minecraft
+  - robots
+  - projects
 
 

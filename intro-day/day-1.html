@@ -17,7 +17,7 @@ page
 
 Hello this is my list of intros:
 
-{% for post in site.collections.intro reversed %}
+{% for post in site.intro reversed %}
 {% assign counter=counter | plus:1 %}
 <section>
 {{ post.content }}
