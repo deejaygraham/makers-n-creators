@@ -4,6 +4,9 @@ Download Python for [Windows](https://www.python.org/downloads/windows/) and an 
 
 ### Content
 
+* [Slides](day-1.html)
+
+
 #### Morning
 
 * [Hello Python](1.1-hello-python.md)
