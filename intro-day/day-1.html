@@ -4,19 +4,6 @@ title: Introduction to Python
 ---
 {% assign counter=0 %}
 
-collections
-{% for collection in site.collections %}
-collection
-{% for item in collection %}
-page
-<p>
-{{ item.url }} and {{ item.title }}
-</p>
-{% endfor %}
-{% endfor %}
-
-Hello this is my list of intros:
-
 {% for post in site.intro reversed %}
 {% assign counter=counter | plus:1 %}
 <section>
