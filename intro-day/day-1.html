@@ -7,10 +7,10 @@ title: Introduction to Python
 collections
 {% for collection in site.collections %}
 collection
-{% for page in collection %}
+{% for item in collection %}
 page
 <p>
-{{ page.content }}
+{{ item.url }} and {{ item.title }}
 </p>
 {% endfor %}
 {% endfor %}
