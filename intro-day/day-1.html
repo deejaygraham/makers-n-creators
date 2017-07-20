@@ -4,7 +4,7 @@ title: Introduction to Python
 ---
 {% assign counter=0 %}
 
-{% for post in site.intro reversed %}
+{% for post in site.intro %}
 {% assign counter=counter | plus:1 %}
 <section>
 {{ post.content }}

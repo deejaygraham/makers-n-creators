@@ -4,7 +4,7 @@ title: Microbits and Python
 ---
 {% assign counter=0 %}
 
-{% for post in site.microbits reversed %}
+{% for post in site.microbits %}
 {% assign counter=counter | plus:1 %}
 <section>
 {{ post.content }}
