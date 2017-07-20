@@ -36,7 +36,7 @@ All objects, including the player, are referenced using a 3-d coordinate system:
 
 ```
 
-       +y / 
+       +y /
        | / +x
        |/
 -z ----/------ +z
@@ -46,7 +46,7 @@ All objects, including the player, are referenced using a 3-d coordinate system:
 
 ```
 
-x = forward (into screen) and backward 
+x = forward (into screen) and backward
 y = up and down (elevation)
 z = left and right
 
@@ -60,7 +60,7 @@ import time
 world = minecraft.Minecraft.create()
 
 while True:
-  pos = mc.player.getPos()
+  pos = world.player.getPos()
   print pos.x, pos.y, pos.z
   time.sleep(1.0)
 
@@ -132,4 +132,3 @@ setBlock works for individual blocks but you can use setBlocks to build cuboids 
 world.setBlocks(x, y, z, x, y + height, z + width)
 
 ```
-
