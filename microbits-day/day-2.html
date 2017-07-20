@@ -1,0 +1,14 @@
+---
+layout: webslides
+title: Microbits and Python
+---
+{% assign counter=0 %}
+
+{% for post in site.microbits reversed %}
+{% assign counter=counter | plus:1 %}
+<section>
+{{ post.content }}
+<!-- debug only -->
+<p>slide {{ counter }} of {{ site.microbits | size }} - {{ post.url }}</p>
+</section>
+{% endfor %}

@@ -7,6 +7,9 @@ Later we can try modding another version of Minecraft, written in python, on the
 
 ### Content
 
+* [Slides](day-3.html)
+
+
 #### Morning
 
 * [Hello! Minecraft World](2.1-hello-world.md)
@@ -25,4 +28,3 @@ Later we can try modding another version of Minecraft, written in python, on the
 ### For Mentors
 
 * [Minecraft API Cheatsheet](minecraft-api.cheatsheet.md)
-
