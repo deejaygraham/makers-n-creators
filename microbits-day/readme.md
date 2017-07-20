@@ -5,7 +5,7 @@ Building tiny games and applications on the BBC Micro:bit using Python.
 
 ### Content
 
-* [Slides](day-2.html)\
+* [Slides](day-2.html)
 
 
 ### Morning
