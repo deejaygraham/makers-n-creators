@@ -1,1 +1,4 @@
-## Individual or Collaborate with someone else?
+---
+---
+
+### Individual or Collaborate with someone else?
