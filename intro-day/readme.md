@@ -1,6 +1,6 @@
-## Introduction to PythonDay
+## Introduction to Python
 
-Download Python for [Windows](https://www.python.org/downloads/windows/) and an [editor](http://atom.io)
+Download Python for [Windows](https://www.python.org/downloads/windows/) and a [text editor](http://atom.io)
 
 ### Content
 
@@ -14,6 +14,16 @@ Download Python for [Windows](https://www.python.org/downloads/windows/) and an 
 
 
 #### Afternoon
+
+*
+*
+*
+
+
+#### Advanced
+
+* [Using GPIO on the RaspberryPi](3.1-distance-sensor.md)
+
 
 ### For Mentors
 
