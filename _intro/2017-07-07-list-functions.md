@@ -3,7 +3,11 @@
 
 # List functions
 
-* dogs.append()
-* dogs.sort()
-* dogs.sort(reverse=True)
-* dogs.reverse()
+~~~
+
+dogs.append('jack russel')
+dogs.sort()
+dogs.sort(reverse=True)
+dogs.reverse()
+
+~~~

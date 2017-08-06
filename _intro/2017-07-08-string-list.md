@@ -1,7 +1,7 @@
 ---
 ---
 
-# Strings are Lists
+# strings ARE lists
 
 We can think of strings as lists of characters.
 

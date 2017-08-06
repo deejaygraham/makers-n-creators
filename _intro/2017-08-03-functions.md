@@ -3,7 +3,7 @@
 
 # functions
 
-We can also pass a variable back from a function.
+We can also pass a value back from a function.
 
 ~~~
 

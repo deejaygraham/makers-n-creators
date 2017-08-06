@@ -1,7 +1,7 @@
 ---
 ---
 
-# variable naming
+# Variable Naming Rules
 
 * Variables can only contain letters, numbers, and underscores.
 * Variable names can start with a letter or an underscore, but can not start with a number.

@@ -3,7 +3,7 @@
 
 # functions
 
-Functions are a way to parcel up a piece of code so that we can use it more than once in our program. Python has lots of useful functions already but we can write our own.
+Functions are a way to parcel up a piece of code so that we can use it more than once in our program. Python has lots of useful functions already but we can write our own (shorter is better).
 
 ~~~
 
@@ -17,4 +17,4 @@ print_greeting_to_screen()
 
 ~~~
 
-Notice def keyword, colon and indentation. Indentation is very important in Python. 
+Notice def keyword, colon and indentation. Indentation is very important in Python.
