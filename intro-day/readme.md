@@ -7,17 +7,14 @@ Download Python for [Windows](https://www.python.org/downloads/windows/) and a [
 * [Slides](day-1.html)
 
 
-#### Morning
+#### Challenges
 
 * [Hello Python](1.1-hello-python.md)
+* [Dog Years](1.1-dog-years.md)
+* [Compliments](1.2-compliments.md)
 * [Lions and Tigers and Bears](1.2-lions-and-tigers-and-bears.md)
-
-
-#### Afternoon
-
-*
-*
-*
+* [Gameshow!](1.3-gameshow.md)
+* [Rock, Paper, Scissors](1.4-rock-paper-scissors.md)
 
 
 #### Advanced
