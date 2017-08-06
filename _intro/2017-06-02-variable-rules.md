@@ -9,4 +9,4 @@
 * You cannot use Python keywords as variable names.
 * Variable names should be descriptive, without being too long.
 * Be careful about using the lowercase letter l and the uppercase letter O in places where they could be confused with the numbers 1 and 0.
-* Be careful of spelling mistakes !
+* Be careful of spelling mistakes (Python's NameError)!
