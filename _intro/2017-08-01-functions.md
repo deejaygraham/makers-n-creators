@@ -17,4 +17,4 @@ print_greeting_to_screen()
 
 ~~~
 
-Notice def keyword, colon and indentation. Indentation is very important in Python.
+Notice def keyword, colon and indentation. Indentation is very important in Python!
