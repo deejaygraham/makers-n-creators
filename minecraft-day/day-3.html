@@ -2,13 +2,9 @@
 layout: webslides
 title: Minecraft and Python
 ---
-{% assign counter=0 %}
 
 {% for post in site.minecraft %}
-{% assign counter=counter | plus:1 %}
 <section>
 {{ post.content }}
-<!-- debug only -->
-<p>slide {{ counter }} of {{ site.minecraft | size }} - {{ post.url }}</p>
 </section>
 {% endfor %}

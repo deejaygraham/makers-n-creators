@@ -2,13 +2,9 @@
 layout: webslides
 title: Projects!!!
 ---
-{% assign counter=0 %}
 
 {% for post in site.projects %}
-{% assign counter=counter | plus:1 %}
 <section>
 {{ post.content }}
-<!-- debug only -->
-<p>slide {{ counter }} of {{ site.projects | size }} - {{ post.url }}</p>
 </section>
 {% endfor %}
