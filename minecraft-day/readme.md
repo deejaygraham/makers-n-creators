@@ -5,6 +5,7 @@ using python scripts.
 
 Later we can try modding another version of Minecraft, written in python, on the laptop.
 
+
 ### Content
 
 * [Slides](day-3.html)
@@ -17,6 +18,7 @@ Later we can try modding another version of Minecraft, written in python, on the
 * [Frozen](2.1-frozen.md)
 * [Build a House](2.3-build-a-house.md)
 * [Build a Pyramid](2.4-build-a-pyramid.md)
+
 
 #### Advanced
 
