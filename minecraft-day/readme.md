@@ -10,16 +10,15 @@ Later we can try modding another version of Minecraft, written in python, on the
 * [Slides](day-3.html)
 
 
-#### Morning
+#### Challenges
 
-* [Hello! Minecraft World](2.1-hello-world.md)
-* [Frozen](2.1-frozen.md)
+* [Hello! Minecraft](2.1-hello-world.md)
 * [Teleport](2.1-teleport.md)
+* [Frozen](2.1-frozen.md)
 * [Build a House](2.3-build-a-house.md)
 * [Build a Pyramid](2.4-build-a-pyramid.md)
 
-
-#### Afternoon
+#### Advanced
 
 * [Minecraft Clone](3.1-minecraft-clone.md)
 * [Microbit Game Controller](3.2-minecraft-microbit-game-controller.md)
