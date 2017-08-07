@@ -2,13 +2,9 @@
 layout: webslides
 title: Introduction to Python
 ---
-{% assign counter=0 %}
 
 {% for post in site.intro %}
-{% assign counter=counter | plus:1 %}
 <section>
 {{ post.content }}
-<!-- debug only -->
-<p>slide {{ counter }} of {{ site.intro | size }} - {{ post.url }}</p>
 </section>
 {% endfor %}
