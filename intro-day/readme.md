@@ -15,6 +15,7 @@ Download Python for [Windows](https://www.python.org/downloads/windows/) and a [
 * [Lions and Tigers and Bears](1.2-lions-and-tigers-and-bears.md)
 * [Heads or Tails](1.3-heads-or-tails.md)
 * [Gameshow!](1.3-gameshow.md)
+* [Turing Test](1.4-hello-mr-turing.md)
 * [Rock, Paper, Scissors](1.4-rock-paper-scissors.md)
 
 
