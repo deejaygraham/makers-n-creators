@@ -11,6 +11,7 @@ Download Python for [Windows](https://www.python.org/downloads/windows/) and a [
 
 * [Hello Python](1.1-hello-python.md)
 * [Dog Years](1.1-dog-years.md)
+* [Pet Naming Service](1.2-pet-naming.md)
 * [Compliments](1.2-compliments.md)
 * [Lions and Tigers and Bears](1.2-lions-and-tigers-and-bears.md)
 * [Heads or Tails](1.3-heads-or-tails.md)
