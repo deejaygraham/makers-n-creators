@@ -18,6 +18,7 @@ Download Python for [Windows](https://www.python.org/downloads/windows/) and a [
 * [Gameshow!](1.3-gameshow.md)
 * [Turing Test](1.4-hello-mr-turing.md)
 * [Rock, Paper, Scissors](1.4-rock-paper-scissors.md)
+* [Death Star Plans][2.1-death-star.md]
 
 
 #### Advanced
