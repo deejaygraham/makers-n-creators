@@ -26,6 +26,8 @@ Later we can try modding another version of Minecraft, written in python, on the
 * [Microbit Game Controller](3.2-minecraft-microbit-game-controller.md)
 
 
+
 ### For Mentors
 
 * [Minecraft API Cheatsheet](minecraft-api.cheatsheet.md)
+* [2d Minecraft tutorial in pygame](http://usingpython.com/pygame/)
