@@ -44,3 +44,9 @@ Code and support materials for a five-day makers and creators week.
 ## Day 5
 
 [Individual or team projects finishing with a show and tell](show-and-tell-day/readme.md)
+
+----
+
+### Learning Journal
+
+[4-day Learning Journal pdf](learning-journal-4.pdf)
