@@ -18,6 +18,8 @@ Later we can try modding another version of Minecraft, written in python, on the
 * [Frozen](2.1-frozen.md)
 * [Build a House](2.3-build-a-house.md)
 * [Build a Pyramid](2.4-build-a-pyramid.md)
+* [Build a Pumpkin](2.5-pumpkin.md)
+<!-- * [Build an Easter Egg](2.5-easter-egg.md) -->
 
 
 #### Advanced
