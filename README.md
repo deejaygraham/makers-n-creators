@@ -16,8 +16,8 @@ Code and support materials for a five-day makers and creators week.
 
 * Day 1 - Introduction to Python
 * Day 2 - BBC Micro:bit
-* Day 3 - Minecraft(s)
-* Day 4 - Lego Robots
+* Day 3 - Lego Robots
+* Day 4 - Minecraft(s)
 * Day 5 - Projects and Show-n-Tell
 
 
@@ -33,15 +33,14 @@ Code and support materials for a five-day makers and creators week.
 
 ## Day 3
 
-[Minecraft automation using Python on Raspberry Pi and PC](minecraft-day/readme.md)
+[Building lego robot vehicles](robots-day/readme.md)
 
 
 ## Day 4
 
-[Building lego robot vehicles](robots-day/readme.md)
+[Minecraft automation using Python on Raspberry Pi and PC](minecraft-day/readme.md)
 
 
 ## Day 5
 
 [Individual or team projects finishing with a show and tell](show-and-tell-day/readme.md)
-
