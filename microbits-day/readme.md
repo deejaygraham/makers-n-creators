@@ -5,8 +5,8 @@ Building tiny games and applications on the BBC Micro:bit using Python.
 
 ### Content
 
-* [Slides](day-2.html)
-
+* [Intro Slides](day-2.html)
+* [Powerpoint Content](microbit.pptx)
 
 ### Morning
 
