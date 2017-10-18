@@ -1,13 +1,10 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 
 @media print {
 
    header, footer, hr {
-	display : none;
+	    display : none;
    }
 }
-
-
