@@ -1,13 +1,11 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "jekyll-theme-tactile";
 
 @media print {
 
    header, footer, hr {
-	display : none;
+	    display : none;
    }
 }
-
-
