@@ -24,6 +24,7 @@ Code and support materials for a five-day makers and creators week.
 ## Day 1
 
 [Introduction to Python](intro-day/readme.md)
+[Making Games with Pygame](pygame-day/readme.md)
 
 
 ## Day 2
