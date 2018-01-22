@@ -21,6 +21,7 @@ Building tiny games and applications on the BBC Micro:bit using Python.
 
 ### Afternoon
 
+* [Flea Race](3.0-flea-race.md)
 * [Treasure Hunt](3.1-treasure-hunt.md)
 * [Mad Sad Glad](3.2-mad-sad-glad.md)
 * [Twitter](3.3-twitter.md)
