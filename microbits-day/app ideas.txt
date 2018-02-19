@@ -1,0 +1,25 @@
+
+
+fieldStrengthTriggerLevel = 200000
+fieldStrengthReading = compass.get_field_strength()
+
+# print(fieldStrengthReading)
+
+ fieldStrengthReading > fieldStrengthTriggerLevel:
+
+
+ # ir movement sensor !!!
+
+ digital read pint 0
+
+
+ IO pins, wiring, buzzers
+
+ Lines graph
+
+ music
+
+ combination lock
+
+
+ temperature sensors
