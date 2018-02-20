@@ -1,7 +1,6 @@
 collections:
-  - intro
-  - microbits
-  - minecraft
-  - robots
+  - microbits-intro
+  - minecraft-clone
+  - minecraft-pi
+  - microbits-iot
   - projects
-  - pygame
