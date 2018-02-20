@@ -7,24 +7,11 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>{{ site.title | default: site.github.repository_name }}</title>
+    <link rel="stylesheet" href="css/theme/white.css">
     <script defer src="js/fontawesome-all.js"></script>
-
-    \\sage006475\Drops\Std18\ReleaseWeekly\S18Rel-Std-QA\S18Rel-Std-QA_20.0.18051.1
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
-
-        <header>
-		      <a href="{{ site.github.url }}">home</a>
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-        </header>
-        <section id="main_content">
-          {{ content }}
-        </section>
-      </div>
-    </div>
+    {{ content }}
   </body>
 </html>
