@@ -1,7 +1,7 @@
 ## Makers & Creators
 
-5 days to write code, play with hardware, build games with the BBC micro:bit and the
-Raspberry Pi using Python.
+5 days to write code, play with hardware, build games using Python with the BBC
+micro:bit and the Raspberry Pi.
 
 ### Agenda
 
