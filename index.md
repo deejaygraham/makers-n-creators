@@ -1,5 +1,10 @@
 ## Makers & Creators
 
+<div style="font-size:3em; color:Tomato">
+<i class="fas fa-code"></i>
+</div>
+
+
 5 days to write code, play with hardware, build games using Python with the BBC
 micro:bit and the Raspberry Pi.
 
