@@ -1,3 +1,7 @@
 # Makers-n-Creators
 
-Code and support materials for a five-day makers and creators week.
+Slides, code and support materials for a five-day makers and creators week.
+
+For a break down of each day [go here](index.html). For mentors, look
+at the [wiki](https://github.com/deejaygraham/makers-n-creators/wiki) for notes,
+check lists, cheat sheets and organizational materials.
