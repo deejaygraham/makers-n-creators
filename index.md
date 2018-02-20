@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<h3 class="fas fa-code>">Makers & Creators</h3>
 
-<div style="font-size:3em; color:Tomato">
-<i class="fas fa-code"></i>5 days to write code, play with hardware, build games
+<h3 class="fas fa-code">Makers & Creators</h3>
+
+<p><i class="fas fa-code"></i>5 days to write code, play with hardware, build games
 using Python with the BBC micro:bit and the Raspberry Pi.
-</div>
+</p>
 
 
 #### Slides
