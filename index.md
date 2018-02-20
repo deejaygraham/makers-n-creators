@@ -11,13 +11,12 @@ using Python with the BBC micro:bit and the Raspberry Pi.
 #### Slides
 
 <ul class="fa-ul">
-<li></li>
-</ul>
 <li><span class="fa-li"><i class="fas fa-code"></i></span>[Monday](slides-day-1.html)</li>
-* <i class="fas fa-code"></i>[Tuesday](slides-day-1.html)</li>
-* <i class="fas fa-code"></i>[Wednesday](slides-day-1.html)</li>
-* <i class="fas fa-code"></i>[Thursday](slides-day-1.html)</li>
-* <i class="fas fa-code"></i>[Friday](slides-day-1.html)</li>
+<li><span class="fa-li"><i class="fas fa-code"></i>[Tuesday](slides-day-1.html)</li>
+<li><span class="fa-li"><i class="fas fa-code"></i>[Wednesday](slides-day-1.html)</li>
+<li><span class="fa-li"><i class="fas fa-code"></i>[Thursday](slides-day-1.html)</li>
+<li><span class="fa-li"><i class="fas fa-code"></i>[Friday](slides-day-1.html)</li>
+</ul>
 
 
 #### Learning Journal
