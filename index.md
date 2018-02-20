@@ -10,15 +10,19 @@ using Python with the BBC micro:bit and the Raspberry Pi.
 
 ## Slides
 
+Here are the slides for each day of the event.
+
 <ul class="fa-ul">
-<li><span class="fa-li"><i class="fas fa-code"></i></span>[Monday](slides-day-1.html)</li>
-<li><span class="fa-li"><i class="fas fa-code"></i>[Tuesday](slides-day-1.html)</li>
-<li><span class="fa-li"><i class="fas fa-code"></i>[Wednesday](slides-day-1.html)</li>
-<li><span class="fa-li"><i class="fas fa-code"></i>[Thursday](slides-day-1.html)</li>
-<li><span class="fa-li"><i class="fas fa-code"></i>[Friday](slides-day-1.html)</li>
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="slides-day-1.html">Monday</a></li>
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="slides-day-2.html">Tuesday</a></li>
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="slides-day-3.html">Wednesday</a></li>
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="slides-day-3.html">Thursday</a></li>
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="slides-day-5.html">Friday</a></li>
 </ul>
 
 
 ## Learning Journal
+
+Many attendees like to keep a learning journal during the week.
 
 [4-day Learning Journal pdf](learning-journal-4.pdf)
