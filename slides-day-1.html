@@ -2,6 +2,6 @@
 layout: slides
 title: Python on the Microbit
 ---
-{% for post in site.microbits-intro %}
-<section>{{ post.content }}</section>
+{% for slide in site.microbits-intro %}
+<section data-background-color="{{ slide.background-color | default: #ff0000 }}">{{ slide.content }}</section>
 {% endfor %}
