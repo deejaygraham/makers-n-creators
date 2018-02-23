@@ -1,8 +1,9 @@
 ---
-
+title: Mad Sad Glad
+platform: microbit
+language: python 
+level: 3
 ---
-## 3.2 Mad/Sad/Glad Messaging
-
 The microbit radio can be used to send text over short distances. In this exercise we will try
 sending pre-defined picture messages to all microbits in the local area. The same code can be used on
 each microbit for sending and receiving.

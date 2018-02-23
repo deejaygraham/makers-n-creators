@@ -1,8 +1,9 @@
 ---
-
+title: Flea Race 2
+platform: microbit
+language: python 
+level: 3
 ---
-## 3.0 Flea Race
-
 ### Challenge
 
 Racing fleas is a fun pastime. Let's build a game where we can race 5 fleas across the screen and the first flea to reach the right hand edge wins.

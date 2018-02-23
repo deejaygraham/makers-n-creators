@@ -1,8 +1,9 @@
 ---
-
+title: Magic 8 Ball
+platform: microbit
+language: python 
+level: 1
 ---
-## 2.2 Magic 8 Ball
-
 Re-create the prediction toy using the microbit’s gesture recognition function. Ask the microbit a question, shake it and read the answer
 
 

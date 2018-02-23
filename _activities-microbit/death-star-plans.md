@@ -1,8 +1,9 @@
 ---
-
+title: Death Star Plans
+platform: microbit
+language: python 
+level: 2
 ---
-## 2.1 Death Star Plans
-
 ### Challenge
 
 We need to hide the stolen Death Star plans inside our micro:bit and not reveal them unless someone enters a secret code. If anyone else tries to

@@ -1,8 +1,9 @@
 ---
-
+title: Storm Distance Calculator
+platform: microbit
+language: python 
+level: 2
 ---
-## 2.4 Storm Distance Calculator
-
 During a thunderstorm, measuring the time between a lightning flash and the sound of thunder tells
 you roughly how far away the storm is. Here we will write a program to wait for lightning, then wait for
 thunder and then calculate an approximate distance to the storm.

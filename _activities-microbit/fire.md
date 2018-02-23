@@ -1,8 +1,9 @@
 ---
-
+title: Fire Simulator
+platform: microbit
+language: python 
+level: 4
 ---
-## 4.0 Fire
-
 ### Challenge
 
 Experiment with the Image class, create a blank image then build a simulated fire by

@@ -1,8 +1,9 @@
 ---
-
+title: Talking Sorting Hat
+platform: microbit
+language: python 
+level: 3
 ---
-## 3.5 Talking, Sorting Hat
-
 In the Harry Potter films, the actor Leslie Phillips voiced the sorting hat. Modify the
 sorting hat code to speak aloud what it’s thinking before announcing to the student instead of writing
 scrolling text on the screen. Most text should translate immediately but you may need to investigate

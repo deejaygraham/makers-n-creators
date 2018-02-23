@@ -1,8 +1,9 @@
 ---
-
+title: Rock Paper Scissors 
+platform: microbit
+language: python 
+level: 1
 ---
-## 2.1 Rock Paper Scissors
-
 In this game, we’ll learn one way to implement the Rock Paper Scissors game for the micro:bit. We’ll
 draw images for each of the objects, react to a gesture from the play then use the python random
 function to pick one of the objects. In this version the micro:bits are not aware of each other’s

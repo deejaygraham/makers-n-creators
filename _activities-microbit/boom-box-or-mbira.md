@@ -1,8 +1,9 @@
 ---
-
+title: Boom-box/Mbira
+platform: microbit
+language: python 
+level: 2
 ---
-## 2.5 Boom-box/Mbira
-
 In this exercise, we are going to bring inputs and outputs together to make a musical instrument. Microbit
 can play music using the music.play function and can get input from buttons or from the touch inputs on the
 edge connector. Wire a speaker or a pair of headphones between pin 0 and and on the edge of the microbit

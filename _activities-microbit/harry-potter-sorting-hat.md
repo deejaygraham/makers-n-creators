@@ -1,8 +1,9 @@
 ---
-
+title: The Harry Potter Sorting Hat
+platform: microbit
+language: python 
+level: 2
 ---
-## 2.3 Harry Potter Sorting Hat
-
 From the Harry Potter films, the Hogwarts Sorting Hat. Concentrate hard on the house you want to be
 sorted into, shake the microbit, then read the hat’s decision. Uses the display.show function to
 show customised images.

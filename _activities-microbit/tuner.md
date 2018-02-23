@@ -1,8 +1,9 @@
 ---
-
+title: Guitar Tuner
+platform: microbit
+language: python 
+level: 3
 ---
-## 3.5 Tuner
-
 ### Challenge
 
 Write a program to allow someone to pick one of any open string notes,
