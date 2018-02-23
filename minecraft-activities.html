@@ -4,10 +4,6 @@ title: Minecraft Activities
 ---
 <ul>
 {% for sheet in site.activities-minecraft %}
-<li>
-  <!-- fa -->
-  <a href="{{ sheet.url }}">{{ sheet.title }}</a>
-  <p>{{ sheet.short-description }}</p>
-</li>
+<li><span class="fa-li"><i class="fas fa-python"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
 {% endfor %}
 </ul>

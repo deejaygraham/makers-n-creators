@@ -2,12 +2,12 @@
 layout: default
 title: Microbit Activities
 ---
-<ul>
+Building tiny games and applications on the BBC Micro:bit using Python.
+
+Make sure you have downloaded the [Micro:bit Editor](http://codewith.mu)
+
+<ul class="fa-ul">
 {% for sheet in site.activities-microbit %}
-<li>
-  hello
-  <!-- fa -->
-  <a href="{{ sheet.url }}">{{ sheet.title }}</a>
-</li>
+<li><span class="fa-li"><i class="fas fa-python"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
 {% endfor %}
 </ul>
