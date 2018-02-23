@@ -7,8 +7,38 @@ Building tiny games and applications on the BBC micro:bit using Python.
 
 Make sure you have downloaded the <a href="http://codewith.mu/">micro:bit Editor</a>
 
+
+### Level 1
+
 <ul class="fa-ul">
-{% for sheet in site.activities-microbit %}
+{% for sheet in site.activities-microbit | where: "level", "1" %}
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+### Level 2
+
+<ul class="fa-ul">
+{% for sheet in site.activities-microbit | where: "level", "2"  %}
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+### Level 3
+
+<ul class="fa-ul">
+{% for sheet in site.activities-microbit | where: "level", "3"  %}
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+### Level 4
+
+<ul class="fa-ul">
+{% for sheet in site.activities-microbit | where: "level", "4"  %}
 <li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
 {% endfor %}
 </ul>
