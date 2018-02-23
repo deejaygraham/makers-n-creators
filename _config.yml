@@ -1,10 +1,12 @@
 collections:
-  - microbits-intro
-  - minecraft-clone
-  - minecraft-pi
-  - microbits-iot
-  - projects
-  - activities-minecraft
-  - activities-microbit
+  microbits-intro:
+  minecraft-clone:
+  minecraft-pi:
+  microbits-iot:
+  projects:
+  activities-minecraft:
+      output: true
+  activities-microbit:
+      output: true
 
 theme: css/theme/white.css
