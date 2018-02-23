@@ -1,9 +1,13 @@
 ---
-layout: activity-sheet
+layout: default
 title: Minecraft Activities
 ---
 <ul>
 {% for sheet in site.activities-minecraft %}
-<li>{{ slide.title }}</li>
+<li>
+  <!-- fa -->
+  <a href="{{ sheet.url }}">{{ sheet.title }}</a>
+  <p>{{ sheet.short-description }}</p>
+</li>
 {% endfor %}
 </ul>
