@@ -2,6 +2,6 @@
 layout: slides
 title: Scripting Minecraft on the Pi
 ---
-{% for post in site.minecraft-pi %}
-<section>{{ post.content }}</section>
+{% for slide in site.minecraft-pi %}
+<section {% if slide.image %}data-background-image="{{ slide.image }}"{% endif %} {% if slide.color %} data-background-color="#{{ slide.color }}"{% endif %}>{{ slide.content }}</section>
 {% endfor %}

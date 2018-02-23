@@ -2,6 +2,6 @@
 layout: slides
 title: Microbit Clusters
 ---
-{% for post in site.microbits-iot %}
-<section>{{ post.content }}</section>
+{% for slide in site.microbits-iot %}
+<section {% if slide.image %}data-background-image="{{ slide.image }}"{% endif %} {% if slide.color %} data-background-color="#{{ slide.color }}"{% endif %}>{{ slide.content }}</section>
 {% endfor %}

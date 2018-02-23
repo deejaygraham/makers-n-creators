@@ -2,6 +2,6 @@
 layout: slides
 title: Projects
 ---
-{% for post in site.projects %}
-<section>{{ post.content }}</section>
+{% for slide in site.projects %}
+<section {% if slide.image %}data-background-image="{{ slide.image }}"{% endif %} {% if slide.color %} data-background-color="#{{ slide.color }}"{% endif %}>{{ slide.content }}</section>
 {% endfor %}
