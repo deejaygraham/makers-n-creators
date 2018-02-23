@@ -4,5 +4,7 @@ collections:
   - minecraft-pi
   - microbits-iot
   - projects
+  - activities-minecraft
+  - activities-microbit
 
 theme: css/theme/white.css
