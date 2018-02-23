@@ -4,6 +4,10 @@ title: Microbit Activities
 ---
 <ul>
 {% for sheet in site.activities-microbit %}
-<li>{{ slide.title }}</li>
+<li>
+  <!-- fa -->
+  <a href="{{ sheet.url }}">{{ sheet.title }}</a>
+  <p>{{ sheet.short-description }}</p>
+</li>
 {% endfor %}
 </ul>
