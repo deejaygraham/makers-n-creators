@@ -9,4 +9,4 @@ collections:
   - activities-microbit:
       output: true
 
-theme: css/theme/white.css
+presentation-theme: css/theme/white.css
