@@ -11,7 +11,8 @@ Make sure you have downloaded the <a href="http://codewith.mu/">micro:bit Editor
 ### Level 1
 
 <ul class="fa-ul">
-{% for sheet in site.activities-microbit | where: "level", "1" %}
+{% assign sheets = (site.activities-microbit | where: "level", "1") %}
+{% for sheet in sheets %}
 <li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
 {% endfor %}
 </ul>
@@ -20,7 +21,8 @@ Make sure you have downloaded the <a href="http://codewith.mu/">micro:bit Editor
 ### Level 2
 
 <ul class="fa-ul">
-{% for sheet in site.activities-microbit | where: "level", "2"  %}
+{% assign sheets = (site.activities-microbit | where: "level", "2") %}
+{% for sheet in sheets %}
 <li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
 {% endfor %}
 </ul>
@@ -29,7 +31,8 @@ Make sure you have downloaded the <a href="http://codewith.mu/">micro:bit Editor
 ### Level 3
 
 <ul class="fa-ul">
-{% for sheet in site.activities-microbit | where: "level", "3"  %}
+{% assign sheets = (site.activities-microbit | where: "level", "3") %}
+{% for sheet in sheets %}
 <li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
 {% endfor %}
 </ul>
@@ -38,7 +41,8 @@ Make sure you have downloaded the <a href="http://codewith.mu/">micro:bit Editor
 ### Level 4
 
 <ul class="fa-ul">
-{% for sheet in site.activities-microbit | where: "level", "4"  %}
+{% assign sheets = (site.activities-microbit | where: "level", "4") %}
+{% for sheet in sheets %}
 <li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
 {% endfor %}
 </ul>
