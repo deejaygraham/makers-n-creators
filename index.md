@@ -21,6 +21,16 @@ Here are the slides for each day of the event.
 </ul>
 
 
+## Activity Sheets
+
+For independent study.
+
+<ul class="fa-ul">
+<li><span class="fa-li"><i class="fas fa-microchip"></i></span><a href="microbit-activities.html">microbit activities</a></li>
+<li><span class="fa-li"><i class="fas fa-keyboard"></i></span><a href="minecraft-activities.html">minecraft activities</a></li>
+</ul>
+
+
 ## Learning Journal
 
 Many attendees like to keep a learning journal during the week.
