@@ -1,4 +1,6 @@
 ---
 ---
 
-### Individual or Collaborate with someone else?
+# On Your Own?
+
+or work with a friend?
