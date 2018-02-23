@@ -3,5 +3,5 @@ layout: slides
 title: Python on the Microbit
 ---
 {% for slide in site.microbits-intro %}
-<section {% if slide.image %}data-background-image="{{ slide.image }}"{% endif %} {% if slide.color %} data-background-color="{{ slide.color }}"{% endif %}>{{ slide.content }}</section>
+<section {% if slide.image %}data-background-image="{{ slide.image }}"{% endif %} {% if slide.color %} data-background-color="#{{ slide.color }}"{% endif %}>{{ slide.content }}</section>
 {% endfor %}
