@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Boom-box/Mbira
 platform: microbit
 language: python 
