@@ -14,6 +14,6 @@ collections:
   activities-microbit:
     output: true
 
-url:  http://deejaygraham.github.io/makers-n-creators/
+url:  https://deejaygraham.github.io/makers-n-creators
 
 presentation-theme: css/theme/white.css
