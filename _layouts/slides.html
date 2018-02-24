@@ -12,11 +12,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="{{ site.presentation-theme }}">
+    <link rel="stylesheet" href="{{ site.url }}/css/reveal.css">
+    <link rel="stylesheet" href="{{ site.url }}/{{ site.presentation-theme }}">
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="{{ site.url }}/lib/css/zenburn.css">
-    <script defer src="js/fontawesome-all.js"></script>
+    <script defer src="{{ site.url }}/js/fontawesome-all.js"></script>
   </head>
   <body>
     <div class="reveal">
@@ -27,21 +27,7 @@
 
     <script src="js/reveal.js"></script>
     <script>
-	Reveal.initialize({
-		controls: true,
-		progress: true,
-		history: true,
-		center: true,
-
-		transition: 'slide', // none/fade/slide/convex/concave/zoom
-		
-		dependencies: [
-			{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-			{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-			{ src: 'plugin/search/search.js', async: true },
-			{ src: 'plugin/zoom-js/zoom.js', async: true }
-		]
-	});
+	Reveal.initialize();
     </script>
   </body>
 </html>
