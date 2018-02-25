@@ -15,6 +15,12 @@ We can represent a flea moving about on the microbit screen using a single pixel
 
 ```python
 
+{{ include solutions/dog-years.py }} 
+
+```
+
+```python
+
 from microbit import *
 
 flea = [0, 0]
