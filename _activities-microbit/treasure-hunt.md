@@ -18,6 +18,10 @@ You might find that the transmitter beacons have their radio power set too high 
 * Draw an image to show when the beacon is broadcasting.
 * Change the code to make a Pokemon Go collecting game. Instead of clues, beacons can broadcast an image of a Pokemon and the hunter has to collect them all. Hint: this could be a mash-up of the treasure hunt and the Snapchat examples.
 
+Adjust the power from each beacon to make it more challenging.
+If you are playing with more than one group in an area, consider changing the radio channel so
+the groups don't interfere with each other.
+
 
 ### Example Solution
 
@@ -25,43 +29,7 @@ You might find that the transmitter beacons have their radio power set too high 
 
 ```python
 
-# Treasure Hunt beacon, broadcasts a text clue to be picked up by the
-# treasure hunter.
-# Change the clue by pressing the up or down (a or b) buttons
-
-from microbit import *
-import radio
-
-all_clues = [
-    "Walk Fifteen paces east",
-    "Ten paces north",
-    "Walk forwards",
-    "Look under the seat",
-    "Hooray, you win!"
-]
-
-clue_count = len(all_clues)
-clue = 1
-
-radio.on()
-radio.config(power=4) # power is 0 -> 7
-radio.config(channel=19) # customise the channel and match on the reciever
-
-while True:
-    # decrease clue number
-    if button_a.was_pressed():
-        clue = max(clue - 1, 1)
-   # increase clue number
-    elif button_b.was_pressed():
-        clue = min(clue +  1, clue_count)
-
-    # broadcast the current clue
-    else:
-        clue_text = str(clue) + ":" + all_clues[clue - 1]
-        radio.send(clue_text)
-
-    display.show(str(clue))
-    sleep(1000)
+{% include solutions/microbit/treasure-hunt-beacon.py %}
 
 ```
 
@@ -69,34 +37,6 @@ while True:
 
 ```python
 
-# Read clues by finding (being near to) each beacon in turn, 1 upwards until you
-# have found the full set.
-
-from microbit import *
-import radio
-
-# starting clue
-clue = "hint: Walk around to find the first clue"
-display.scroll(clue)
-next_clue = 1
-
-radio.on()
-
-while True:
-    display.show("?")
-
-    # are we near any clue beacons?
-    message = radio.receive()
-
-    if message:
-        # picked up a clue !
-        number, text = message.split(":")
-        # is it the one we want?
-        if int(number) == next_clue:
-            clue = "clue " + str(number) + ":" + text
-            next_clue += 1
-            display.scroll(clue)
-
-    sleep(100)
+{% include solutions/microbit/treasure-hunt-receiver.py %}
 
 ```

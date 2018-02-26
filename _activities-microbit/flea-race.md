@@ -47,9 +47,7 @@ There's a problem with this code, you
 
 ```python
 
-        flea[0] += 1
-        flea[0] = min(flea[0], 4)
-        display.set_pixel(flea[0], flea[1], 9)
+{% include snippets/microbit/flea-race-4.py %}
 
 ```
 
@@ -62,21 +60,7 @@ So after we created a single flea, let's create a collection and add the flea to
 
 ```python
 
-from microbit import *
-import random
-
-flea = [0, 0]
-all_fleas = [ flea ]
-
-```
-
-Then we can expand our initial code to draw the fleas at their starting points.
-
-```python
-
-# display.set_pixel(flea[0], flea[1], 9)
-for f in all_fleas:
-  display.set_pixel(f[0], f[1], 9)
+{% include snippets/microbit/flea-race-5.py %}
 
 ```
 
@@ -84,17 +68,7 @@ And change the main movement and drawing code to use a collection:
 
 ```python
 
-# race !
-for x in range(1, 10):
-    for f in all_fleas:
-      # 50 % chance
-      if random.randint(0, 1) == 1:
-          display.set_pixel(f[0], f[1], 0)
-          f[0] += 1
-          f[0] = min(f[0], 4)
-          display.set_pixel(f[0], f[1], 9)
-
-    sleep(500)        
+{% include snippets/microbit/flea-race-6.py %}
 
 ```
 
@@ -104,13 +78,7 @@ Now that we have things set up, we can add more fleas. Let's given them more des
 
 ```python
 
-alice = [0, 0]
-bob = [0, 1]
-carol = [0, 2]
-dave = [0, 3]
-eleanor = [0, 4]
-
-all_fleas = [ alice, bob, carol, dave, eleanor ]
+{% include snippets/microbit/flea-race-7.py %}
 
 ```
 
@@ -119,19 +87,9 @@ That's the only change we need to have 5 fleas, all racing in their own lane (y 
 
 ### Cheating
 
+```python
 
-display.set_pixel(flea[0], flea[1], 9)
-
-# increase the opportunities to move because
-# we don't move every time...
-for x in range(1, 10):
-    # 50 % chance
-    if random.randint(0, 1) == 1:
-        display.set_pixel(turtle[0], turtle[1], 0)
-        flea[0] += 1
-        display.set_pixel(flea[0], flea[1], 9)
-
-    sleep(500)        
+{% include snippets/microbit/flea-race-8.py %}
 
 ```
 
@@ -140,33 +98,6 @@ for x in range(1, 10):
 
 ```python
 
-from microbit import *
-import random
-
-# add a speed field for each turtle
-alice = [0, 0, 1]
-bob = [0, 1, 2]
-carol = [0, 2, 3]
-dave = [0, 3, 4]
-eleanor = [0, 4, 5]
-
-turtles = [alice, bob, carol, dave, eleanor]
-
-# line up at start
-for turtle in turtles:
-    display.set_pixel(turtle[0], turtle[1], 9)
-
-
-# race !
-for x in range(1, 10):
-    for turtle in turtles:
-        # will this turtle move this turn?
-       if random.randint(0, turtle[2]) == 1:
-            display.set_pixel(turtle[0], turtle[1], 0)
-            turtle[0] += 1
-            turtle[0] = min(turtle[0], 4)
-            display.set_pixel(turtle[0], turtle[1], 9)
-
-    sleep(500)        
+{% include solutions/microbit/flea-race.py %}
 
 ```
