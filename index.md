@@ -3,7 +3,7 @@ layout: default
 ---
 # Makers & Creators
 
-<p><i class="fas fa-code"></i> 5 days to write code, play with hardware, build games
+<p><i class="fas fa-terminal"></i> 5 days to write code, play with hardware, build games
 using Python with the BBC micro:bit and the Raspberry Pi.
 </p>
 
