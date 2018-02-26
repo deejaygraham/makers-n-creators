@@ -5,7 +5,9 @@ platform: microbit
 language: python
 level: 1
 ---
-Re-create the prediction toy using the microbit’s gesture recognition function. Ask the microbit a question, shake it and read the answer
+Let's re-create the popular prediction toy using the micro:bit’s gesture recognition functions. 
+
+Ask the micro:bit a question, shake it and wait for the answer to your problem.
 
 
 ### Notes
