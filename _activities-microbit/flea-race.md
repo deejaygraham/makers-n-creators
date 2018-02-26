@@ -1,7 +1,7 @@
 ---
 title: Flea Race
 platform: microbit
-language: python 
+language: python
 level: 1
 
 ---
@@ -16,9 +16,14 @@ We can represent a flea moving about on the microbit screen using a single pixel
 ```python
 py dog begin
 
-{{ include dog-years.py }} 
+{% include dog-years.py %}
 
 py dog end
+
+{% include solutions/dog-years.py %}
+
+py solutions endself.
+
 ```
 dog years end
 
