@@ -14,10 +14,13 @@ Racing fleas is a fun pastime. Let's build a game where we can race 5 fleas acro
 We can represent a flea moving about on the microbit screen using a single pixel. Let's create a list of two items that will represent the flea's x and y position on the screen. Remember, the left column is 0 and the right column is number 4.
 
 ```python
+py dog begin
 
 {{ include dog-years.py }} 
 
+py dog end
 ```
+dog years end
 
 ```python
 
