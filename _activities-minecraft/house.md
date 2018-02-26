@@ -5,7 +5,9 @@ platform: minecraft-pi
 language: python
 level: 3
 ---
-## 2.3 Building a House
+## Build a House
+
+### Challenge
 
 In this challenge we will build a simple, single story house with a flat roof. We could
 build a house with a loop to place every block but a nice easy way to do it is to use

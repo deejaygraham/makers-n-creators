@@ -7,6 +7,8 @@ level: 2
 ---
 ## Frozen
 
+### Challenge
+
 In the Raspberry Pi version of Minecraft we can ask for the player's current position
 in the world and find out what kind of block they are standing on. Then we can automate
 changing the blocks in the world depending on where the player moves.

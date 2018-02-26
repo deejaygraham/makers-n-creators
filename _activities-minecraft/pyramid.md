@@ -5,7 +5,9 @@ platform: minecraft-pi
 language: python
 level: 3
 ---
-## 2.4 Building a Pyramid
+## Build a Pyramid
+
+### Challenge
 
 Once you've built a house, we can use loops to build a pyramid by laying down a flat
 square of blocks 1 block thick and however big you would like. Then we can shrink the

@@ -7,6 +7,8 @@ level: 1
 ---
 ## Teleport
 
+### Challenge
+
 Write a program to move the player to a different place in the world.
 
 

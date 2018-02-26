@@ -7,6 +7,8 @@ level: 3
 ---
 ## Pumpkin
 
+### Challenge
+
 It's nearly Halloween so we can use Minecraft to build something apart from
 buildings. How about a pumpkin?
 

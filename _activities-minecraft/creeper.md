@@ -7,6 +7,8 @@ level: 3
 ---
 ## Creeper
 
+### Challenge
+
 In honour of Halloween, we will create a spooky block that follows us around.
 Once you have the code working, you can build on the basic spooky block and make it
 into a minecraft creeper, a weeping angel from Dr Who or a ghost.

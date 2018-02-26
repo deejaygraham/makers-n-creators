@@ -7,6 +7,8 @@ level: 4
 ---
 ## Minecraft Game Controller
 
+### Challenge
+
 We've seen how awesome the microbit is and how to run python scripts on the pi to control Minecraft. What about
 if we could connect the two together and have the microbit send commands to Minecraft?
 

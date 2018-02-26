@@ -7,6 +7,8 @@ level: 3
 ---
 ## Easter Egg
 
+### Challenge 
+
 It's nearly Easter so we can use Minecraft to build something apart from
 buildings. How about an Easter Egg?
 

@@ -7,6 +7,8 @@ level: 1
 ---
 ## Hello world
 
+### Challenge
+
 In order to be considered professional python programmers on the Raspberry Pi, we have to
 do the time-honored hello world in Minecraft.
 
