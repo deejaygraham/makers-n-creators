@@ -24,6 +24,6 @@ Eventually the fire will "burn out" as the intensity decreases gradually. Use th
 
 ```python
 
-{% include solutions/microbit/fire.md %}
+{% include solutions/microbit/fire.py %}
 
 ```
