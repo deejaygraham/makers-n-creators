@@ -20,7 +20,8 @@ url:  https://deejaygraham.github.io/makers-n-creators
 
 presentation-theme: white
 # syntax highlight themes from https://highlightjs.org/
-syntax-theme: github
-# monokai-sublime
+syntax-theme: zenburn
+# github
+# - not monokai-sublime
 # solarized-dark
 # zenburn
