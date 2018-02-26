@@ -17,3 +17,4 @@ collections:
 url:  https://deejaygraham.github.io/makers-n-creators
 
 presentation-theme: css/theme/white.css
+syntax-theme: css/dracula.css
