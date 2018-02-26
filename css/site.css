@@ -18,3 +18,10 @@ margin: 2em;
 code {
 	font-size: 120%;
 }
+
+@media print {
+  #solution { 
+    page-break-before: always;
+	break-before: always;
+  }
+}

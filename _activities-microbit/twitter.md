@@ -21,7 +21,7 @@ used on each microbit for sending and receiving.
 
 Hint: radio.config(channel=20)
 
-
+<div id="solution">
 ### Example Solution
 
 ```python
@@ -29,3 +29,5 @@ Hint: radio.config(channel=20)
 {% include solutions/microbit/twitter.py %}
 
 ```
+
+</div>
