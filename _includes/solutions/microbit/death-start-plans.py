@@ -1,0 +1,53 @@
+from microbit import *
+import random
+
+# death star plans animation
+death_star = Image("09990:99597:99975:97755:07550")
+shot_1 = Image("00000:99099:09090:09090:09090")
+exhaust_port = Image("00000:99099:09090:09090:09090")
+shot_1 = Image("00500:99099:09090:09090:09090")
+shot_2 = Image("00000:99599:09090:09090:09090")
+shot_3 = Image("00000:99099:09590:09090:09090")
+shot_4 = Image("00000:99099:09090:09590:09090")
+shot_5 = Image("00000:99099:09090:09090:09590")
+explosion1 = Image("00000:00000:00500:00000:00000")
+explosion2 = Image("00000:09090:00900:09090:00000")
+explosion3 = Image("90909:09590:95559:09590:90909")
+explosion4 = Image("00000:" * 5)
+
+animation = [death_star, exhaust_port, shot_1, shot_2, shot_3, shot_4, shot_5, explosion1, explosion2, explosion3, explosion4]
+
+smile = Image("000:90992:90092:90092:99992")
+r2_d2 = Image("00000:00000:09990:99099:99959")
+
+unlock_sequence = ["a", "b", "a"]
+entered_sequence = []
+
+display.show(r2_d2)
+
+while True:
+
+    if (button_a.was_pressed()):
+        entered_sequence.append('a')
+    if (button_b.was_pressed()):
+        entered_sequence.append('b')
+
+    if (len(unlock_sequence) == len(entered_sequence)):
+        # have they entered the correct sequence?
+        secret_unlocked = True
+
+        for i in range(len(unlock_sequence)):
+            if entered_sequence[i] != unlock_sequence[i]:
+                # no match - lock the plans again!
+                secret_unlocked = False
+                break
+
+        if secret_unlocked:
+            display.scroll("help me Obi-Wan, you are my only hope", delay=100)
+            display.show(animation, delay=1000)
+        else:
+            responses = ["beep", "boop", "I am not the droid you are looking for"]
+            display.scroll(random.choice(responses))
+
+        display.show(r2_d2)
+        entered_sequence = []

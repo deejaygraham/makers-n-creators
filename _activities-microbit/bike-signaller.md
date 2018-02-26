@@ -27,7 +27,7 @@ To put this onto a real bike, we would have to use some wiring so the microbit c
 
 ```python
 
-{% include solutions/bike-signaller-handlebars.py %}
+{% include solutions/microbit/bike-signaller-handlebars.py %}
 
 ```
 
@@ -35,6 +35,6 @@ To put this onto a real bike, we would have to use some wiring so the microbit c
 
 ```python
 
-{% include solutions/bike-signaller-rear.py %}
+{% include solutions/microbit/bike-signaller-rear.py %}
 
 ```

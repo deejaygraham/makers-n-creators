@@ -34,6 +34,6 @@ before running.
 
 ```python
 
-{% include solutions/boom-box-or-mbira.py %}
+{% include solutions/microbit/boom-box-or-mbira.py %}
 
 ```
