@@ -1,7 +1,8 @@
 ---
+layout: default
 title: The Harry Potter Sorting Hat
 platform: microbit
-language: python 
+language: python
 level: 2
 ---
 From the Harry Potter films, the Hogwarts Sorting Hat. Concentrate hard on the house you want to be

@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Empathy
 platform: microbit
-language: python 
+language: python
 level: 3
 ---
 In this example, we are going to communicate an action from one microbit to another using the radio. Display a block in the

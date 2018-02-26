@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Guitar Tuner
 platform: microbit
-language: python 
+language: python
 level: 3
 ---
 ### Challenge

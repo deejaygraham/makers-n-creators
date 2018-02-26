@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Death Star Plans
 platform: microbit
 language: python

@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Treasure Hunt
 platform: microbit
-language: python 
+language: python
 level: 4
 ---
 This game uses several microbits to create a treasure hunt game. Create a number of clues to the treasure

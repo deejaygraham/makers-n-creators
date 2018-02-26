@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Old Timey Twitter
 platform: microbit
-language: python 
+language: python
 level: 3
 ---
 ### Challenge

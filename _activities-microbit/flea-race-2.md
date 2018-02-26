@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Flea Race 2
 platform: microbit
-language: python 
+language: python
 level: 3
 ---
 ### Challenge

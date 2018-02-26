@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Storm Distance Calculator
 platform: microbit
-language: python 
+language: python
 level: 2
 ---
 During a thunderstorm, measuring the time between a lightning flash and the sound of thunder tells

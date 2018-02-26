@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Theremin
 platform: microbit
-language: python 
+language: python
 level: 2
 ---
 In this exercise, we are recreating an electronic musical instrument from the 1920s. We will play a

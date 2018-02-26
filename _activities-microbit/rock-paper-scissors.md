@@ -1,7 +1,8 @@
 ---
-title: Rock Paper Scissors 
+layout: default
+title: Rock Paper Scissors
 platform: microbit
-language: python 
+language: python
 level: 1
 ---
 In this game, we’ll learn one way to implement the Rock Paper Scissors game for the micro:bit. We’ll

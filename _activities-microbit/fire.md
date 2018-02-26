@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Fire Simulator
 platform: microbit
-language: python 
+language: python
 level: 4
 ---
 ### Challenge

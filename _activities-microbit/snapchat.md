@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Old Timey SnapChat
 platform: microbit
-language: python 
+language: python
 level: 3
 ---
 The microbit radio can be used to send text over short distances. In this exercise we will try sending images encoded as text

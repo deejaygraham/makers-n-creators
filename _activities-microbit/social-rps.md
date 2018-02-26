@@ -1,7 +1,8 @@
 ---
+layout: default
 title: Social Rock Paper Scissors
 platform: microbit
-language: python 
+language: python
 level: 3
 ---
 The disadvantage of the original rock, paper scissors was that you had to compare the results with a friend.
