@@ -2,8 +2,41 @@
 layout: default
 title: Minecraft Activities
 ---
+<h2>Level 1</h2>
+
 <ul class="fa-ul">
-{% for sheet in site.activities-minecraft %}
-<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ sheet.url }}">{{ sheet.title }}</a></li>
+{% assign sheets = (site.activities-minecraft | where: "level", "1") %}
+{% for sheet in sheets %}
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ site.url }}{{ sheet.url }}">{{ sheet.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+<h2>Level 2</h2>
+
+<ul class="fa-ul">
+{% assign sheets = (site.activities-minecraft | where: "level", "2") %}
+{% for sheet in sheets %}
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ site.url }}{{ sheet.url }}">{{ sheet.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+<h2>Level 3</h2>
+
+<ul class="fa-ul">
+{% assign sheets = (site.activities-minecraft | where: "level", "3") %}
+{% for sheet in sheets %}
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ site.url }}{{ sheet.url }}">{{ sheet.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+<h2>Level 4</h2>
+
+<ul class="fa-ul">
+{% assign sheets = (site.activities-minecraft | where: "level", "4") %}
+{% for sheet in sheets %}
+<li><span class="fa-li"><i class="fas fa-code"></i></span><a href="{{ site.url }}{{ sheet.url }}">{{ sheet.title }}</a></li>
 {% endfor %}
 </ul>
