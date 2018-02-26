@@ -30,8 +30,3 @@ Later we can try modding another version of Minecraft, written in python, on the
 
 
 
-### For Mentors
-
-* [Minecraft API Cheatsheet](minecraft-api.cheatsheet.md)
-* [2d Minecraft tutorial in pygame](http://usingpython.com/pygame/)
-* [Emulated Raspberry Pi Image for Windows](https://sourceforge.net/projects/rpiqemuwindows/) and how to [here](http://www.makeuseof.com/tag/emulate-raspberry-pi-pc/) 
