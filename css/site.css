@@ -20,7 +20,7 @@ code {
 }
 
 @media print {
-  #solution { 
+  #example-solution { 
     page-break-before: always;
 	break-before: always;
   }
