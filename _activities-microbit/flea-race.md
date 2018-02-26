@@ -1,9 +1,9 @@
 ---
+layout: default
 title: Flea Race
 platform: microbit
 language: python
 level: 1
-
 ---
 ### Challenge
 
@@ -14,25 +14,8 @@ Racing fleas is a fun pastime. Let's build a game where we can race 5 fleas acro
 We can represent a flea moving about on the microbit screen using a single pixel. Let's create a list of two items that will represent the flea's x and y position on the screen. Remember, the left column is 0 and the right column is number 4.
 
 ```python
-py dog begin
 
-{% include dog-years.py %}
-
-py dog end
-
-{% include solutions/dog-years.py %}
-
-py solutions endself.
-
-```
-dog years end
-
-```python
-
-from microbit import *
-
-flea = [0, 0]
-
+{% include snippets/microbit/flea-race-1.py %}
 
 ```
 
@@ -41,21 +24,7 @@ Now we can race one flea across the screen.
 
 ```python
 
-from microbit import *
-
-flea = [0, 0] # x, y
-
-# start in left column.
-display.set_pixel(flea[0], flea[1], 9)
-
-for x in range(1, 4):
-    # turn off current pixel
-    display.set_pixel(turtle[0], turtle[1], 0)
-    # move
-    flea[0] += 1
-    display.set_pixel(flea[0], flea[1], 9)
-    # wait so we don't move too fast
-    sleep(500)        
+{% include snippets/microbit/flea-race-2.py %}
 
 ```
 
@@ -68,23 +37,7 @@ What about if we made it different every time? We can use random (and remember t
 
 ```python
 
-from microbit import *
-import random
-
-flea = [0, 0]
-
-display.set_pixel(flea[0], flea[1], 9)
-
-# increase the opportunities to move because
-# we don't move every time...
-for x in range(1, 10):
-    # 50 % chance
-    if random.randint(0, 1) == 1:
-        display.set_pixel(flea[0], flea[1], 0)
-        flea[0] += 1
-        display.set_pixel(flea[0], flea[1], 9)
-
-    sleep(500)        
+{% include snippets/microbit/flea-race-3.py %}
 
 ```
 
