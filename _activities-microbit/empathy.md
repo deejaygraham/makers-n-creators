@@ -5,6 +5,9 @@ platform: microbit
 language: python
 level: 3
 ---
+## Empathy
+
+### Challenge
 In this example, we are going to communicate an action from one microbit to another using the radio. Display a block in the
 centre of the screen. When the first microbit is shaken it should transmit this feeling to all those around it and
 make them shake their blocks too.

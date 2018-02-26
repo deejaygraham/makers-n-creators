@@ -5,6 +5,10 @@ platform: microbit
 language: python
 level: 3
 ---
+## Social Rock Paper Scissors
+
+### Challenge
+
 The disadvantage of the original rock, paper scissors was that you had to compare the results with a friend.
 Extend the original rock paper scissors program to send your selection to another microbit using the
 radio, compare the choices automatically and decide who wins.

@@ -5,6 +5,10 @@ platform: microbit
 language: python
 level: 4
 ---
+## Treasure Hunt
+
+### Challenge
+
 This game uses several microbits to create a treasure hunt game. Create a number of clues to the treasure
 and put them in the all_clues list. Program all but one of the microbits with the beacon code and set
 each one to a different number. Program the final microbit with the receiver code.

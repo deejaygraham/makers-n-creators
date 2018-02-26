@@ -5,6 +5,10 @@ platform: microbit
 language: python
 level: 2
 ---
+## Theremin
+
+### Challenge
+
 In this exercise, we are recreating an electronic musical instrument from the 1920s. We will play a
 musical note which changes based on how we move the microbit around in space. Wire a speaker or a
 pair of headphones between pin 0 and the GND pin on the edge of the microbit before running.
