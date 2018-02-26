@@ -17,4 +17,7 @@ collections:
 url:  https://deejaygraham.github.io/makers-n-creators
 
 presentation-theme: white
-syntax-theme: dracula
+syntax-theme: github
+# monokai-sublime
+# solarized-dark
+# zenburn
