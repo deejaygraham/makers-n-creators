@@ -23,7 +23,6 @@ The second program must loop waiting for input from the first microbit. If it re
 To put this onto a real bike, we would have to use some wiring so the microbit could get a signal when you press the brakes or when you turn press a button on the handle bars when you want to signal left or right. Maybe a project for another event?
 
 
-<div id="solution">
 ### Example Solution
 
 #### Handlebar Microbit
@@ -41,4 +40,3 @@ To put this onto a real bike, we would have to use some wiring so the microbit c
 {% include solutions/microbit/bike-signaller-rear.py %}
 
 ```
-</div>
