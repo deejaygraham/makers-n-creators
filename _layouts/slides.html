@@ -26,22 +26,20 @@
 
     <script src="{{ site.url }}/js/reveal.js"></script>
     <script>
-    // Required, even if empty.
-     Reveal.initialize({
-         dependencies: [
-             // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
-             { src: '{{ site.url }}/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-             // Interpret Markdown in <section> elements
-             { src: '{{ site.url }}/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-             { src: '{{ site.url }}/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-             // Syntax highlight for <code> elements
-             { src: '{{ site.url }}/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-             // Zoom in and out with Alt+click
-             { src: '{{ site.url }}/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-             // Speaker notes
-             { src: '{{ site.url }}/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-           ]
-     });
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+        // Display a presentation progress bar
+        progress: true,
+        // If true; each slide will be pushed to the browser history
+        history: false,
+        // Loops the presentation, defaults to false
+        loop: false,
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            {src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad();}}
+        ]
+    });
     </script>
   </body>
 </html>
