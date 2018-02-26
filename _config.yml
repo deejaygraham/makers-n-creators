@@ -17,6 +17,7 @@ collections:
 url:  https://deejaygraham.github.io/makers-n-creators
 
 presentation-theme: white
+# syntax highlight themes from https://highlightjs.org/
 syntax-theme: github
 # monokai-sublime
 # solarized-dark
