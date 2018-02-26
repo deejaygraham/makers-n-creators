@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
+<span style="font-size:3em; color:Tomato"><i class="fas fa-terminal fa-pull-left fa-border"></i></span>
 # Makers & Creators
 
-<p><i class="fas fa-terminal"></i> 5 days to write code, play with hardware, build games
+<p>5 days to write code, play with hardware, build games
 using Python with the BBC micro:bit and the Raspberry Pi.
 </p>
 
