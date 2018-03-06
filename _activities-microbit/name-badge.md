@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Flea Race
+title: Name Badge
 platform: microbit
 language: python
 level: 1
