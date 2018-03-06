@@ -1,11 +1,19 @@
 ---
+layout: default
+title: Flea Race
+platform: microbit
+language: python
+level: 1
 ---
+## Name Badge
 
-Name Badge
+### Challenge
 
 First thing we all have a paper sticker name badge which feels a little bit old fashioned. What we should make is a programmable 
 name badge that can show a greeting of your choice.
 
+
+### Example Solution
 
 ~~~python
 
