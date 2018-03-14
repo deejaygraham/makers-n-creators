@@ -1,5 +1,0 @@
----
----
-
-## Makers and Creators
-### Tuesday
