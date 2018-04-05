@@ -15,10 +15,10 @@ Here are the slides for each day of the event.
 
 <ul class="fa-ul">
 <li><span class="fa-li"><i class="fas fa-microchip"></i></span><a href="https://github.com/deejaygraham/makers-n-creators/raw/master/intro-to-microbit.pptx">Monday pptx</a></li>
-<li><span class="fa-li"><i class="fas fa-laptop"></i></span><a href="slides-day-2.html">Tuesday</a></li>
-<li><span class="fa-li"><i class="fas fa-keyboard"></i></span><a href="slides-day-3.html">Wednesday</a></li>
-<li><span class="fa-li"><i class="fas fa-globe"></i></span><a href="slides-day-3.html">Thursday</a></li>
-<li><span class="fa-li"><i class="fas fa-lightbulb"></i></span><a href="slides-day-5.html">Friday</a></li>
+<li><span class="fa-li"><i class="fas fa-laptop"></i></span><a href="#">Tuesday</a></li>
+<li><span class="fa-li"><i class="fas fa-keyboard"></i></span><a href="#">Wednesday</a></li>
+<li><span class="fa-li"><i class="fas fa-globe"></i></span><a href="#">Thursday</a></li>
+<li><span class="fa-li"><i class="fas fa-lightbulb"></i></span><a href="https://github.com/deejaygraham/makers-n-creators/raw/master/maker-projects.pptx">Friday</a></li>
 </ul>
 
 
