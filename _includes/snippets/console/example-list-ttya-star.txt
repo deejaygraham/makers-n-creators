@@ -1,0 +1,3 @@
+ls /dev/ttyA*
+
+dev/ttyACM1

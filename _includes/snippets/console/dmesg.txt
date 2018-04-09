@@ -1,0 +1,3 @@
+dmesg
+
+171769.685287] cdc_acm 1-1.2:1.1: ttyACM0: USB ACM device
