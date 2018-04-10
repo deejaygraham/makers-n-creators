@@ -14,11 +14,11 @@ using Python with the BBC micro:bit and the Raspberry Pi.
 Here are the slides for each day of the event.
 
 <ul class="fa-ul">
-<li><span class="fa-li"><i class="fas fa-microchip"></i></span><a href="https://github.com/deejaygraham/makers-n-creators/raw/master/intro-to-microbit.pptx">Monday pptx</a></li>
-<li><span class="fa-li"><i class="fas fa-laptop"></i></span><a href="#">Tuesday</a></li>
-<li><span class="fa-li"><i class="fas fa-keyboard"></i></span><a href="https://github.com/deejaygraham/makers-n-creators/raw/master/minecraft-pi.pptx">Wednesday</a></li>
-<li><span class="fa-li"><i class="fas fa-globe"></i></span><a href="#">Thursday</a></li>
-<li><span class="fa-li"><i class="fas fa-lightbulb"></i></span><a href="https://github.com/deejaygraham/makers-n-creators/raw/master/maker-projects.pptx">Friday pptx</a></li>
+<li>Intro to Micro:Bits <a href="https://github.com/deejaygraham/makers-n-creators/raw/master/intro-to-microbit.pptx"><i class="fas fa-powerpoint"></i></a></li>
+<li>Building a Minecraft clone <a href="#"><i class="fas fa-powerpoint"></i></a></li>
+<li>Raspberry Pi Minecraft <a href="https://github.com/deejaygraham/makers-n-creators/raw/master/minecraft-pi.pptx"><i class="fas fa-powerpoint"></i></a></li>
+<li>Micro:Bit Sensors <a href="https://github.com/deejaygraham/makers-n-creators/raw/master/intro-to-microbit.pptx"><i class="fas fa-powerpoint"></i></a></li>
+<li>Project Show n Tell <a href="https://github.com/deejaygraham/makers-n-creators/raw/master/maker-projects.pptx"><i class="fas fa-powerpoint"></i></a></li>
 </ul>
 
 
