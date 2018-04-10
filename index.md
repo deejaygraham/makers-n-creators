@@ -16,7 +16,7 @@ Here are the slides for each day of the event.
 <ul class="fa-ul">
 <li><span class="fa-li"><i class="fas fa-microchip"></i></span><a href="https://github.com/deejaygraham/makers-n-creators/raw/master/intro-to-microbit.pptx">Monday pptx</a></li>
 <li><span class="fa-li"><i class="fas fa-laptop"></i></span><a href="#">Tuesday</a></li>
-<li><span class="fa-li"><i class="fas fa-keyboard"></i></span><a href="#">Wednesday</a></li>
+<li><span class="fa-li"><i class="fas fa-keyboard"></i></span><a href="https://github.com/deejaygraham/makers-n-creators/raw/master/minecraft-pi.pptx">Wednesday</a></li>
 <li><span class="fa-li"><i class="fas fa-globe"></i></span><a href="#">Thursday</a></li>
 <li><span class="fa-li"><i class="fas fa-lightbulb"></i></span><a href="https://github.com/deejaygraham/makers-n-creators/raw/master/maker-projects.pptx">Friday pptx</a></li>
 </ul>

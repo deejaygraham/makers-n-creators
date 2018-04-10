@@ -23,7 +23,7 @@ The print function is actually wired up to the USB serial port so
 
 ```python
 
-print('hello world')
+{% include snippets/minecraft/game-controller-1.py %}
 
 ```
 
@@ -57,7 +57,7 @@ First, you will need to install pySerial using:
 
 ```console
 
-sudo apt-get install python-serial
+{% include snippets/console/install-pyserial.txt %}
 
 ```
 
@@ -67,7 +67,7 @@ terminal window and run this command:
 
 ```console
 
-ls /dev/ttyA*
+{% include snippets/console/list-ttya-star.txt %}
 
 ```
 
@@ -77,10 +77,7 @@ run the command again and look for something like dev/ttyACM1:
 
 ```console
 
-ls /dev/ttyA*
-
-dev/ttyACM1
-
+{% include snippets/console/example-list-ttya-star.txt %}
 
 ```
 
@@ -89,9 +86,7 @@ or run the command:
 
 ```console
 
-dmesg
-
-171769.685287] cdc_acm 1-1.2:1.1: ttyACM0: USB ACM device
+{% include snippets/console/dmesg.txt %}
 
 ```
 
