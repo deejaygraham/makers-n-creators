@@ -48,6 +48,8 @@ Image.HEART, Image.SAD, Image.ASLEEP, Image.SURPRISED, Image.CONFUSED
 
 ~~~
 
+Notice we have to add a sleep(500) - 1/2 a second - so that we get a chance to see the image before it's replaced with 'hi' again. What happens if you increase or decrease the sleep time?
+
 
 
 
