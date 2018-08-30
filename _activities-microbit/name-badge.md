@@ -31,7 +31,7 @@ Notice that it only displays once. To get it to display repeatedly we can use a 
 
 ~~~
 
-Next week can add an introduction and our name. Substitute your own name in the code. Be careful to keep all display.scrolls in line with each other and all still indented under the while.
+Next we can add an introduction and our name. Substitute your own name in the code. Be careful to keep all display.scrolls in line with each other and all still indented under the while.
 
 ~~~python
 
@@ -39,21 +39,15 @@ Next week can add an introduction and our name. Substitute your own name in the 
 
 ~~~
 
-If we wanted to make this a bit easier to change the name we can add an extra line near the top to remember the name.
+Now, how about showing how you are feeling today with a picture? Use display.show() with one of these images - Image.HAPPY, 
+Image.HEART, Image.SAD, Image.ASLEEP, Image.SURPRISED, Image.CONFUSED
 
 ~~~python
 
-{% include snippets/microbit/name-badge-4.py %}
+{% include snippets/microbit/name-badge-5.py %}
 
 ~~~
 
-In fact, that makes the code look a bit easier to read so we should bring the greeting and the introduction out into variables as well.
 
 
-### Example Solution
 
-~~~python
-
-{% include solutions/microbit/name-badge.py %} 
-
-~~~
