@@ -1,6 +1,3 @@
-# Read clues by finding (being near to) each beacon in turn, 1 upwards until you
-# have found the full set.
-
 from microbit import *
 import radio
 
@@ -26,4 +23,4 @@ while True:
             next_clue += 1
             display.scroll(clue)
 
-    sleep(100)
+    sleep(250)
