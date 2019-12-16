@@ -7,9 +7,9 @@ function show_hide_solution() {
     var x = document.getElementsByClassName("language-python")[0];
     if (x.style.display === "none") {
       x.style.display = "block";
-      x.value = "Hide Solution";
+      x.innerHTML = "Hide Solution";
     } else {
       x.style.display = "none";
-      x.value = "Show Solution";
+      x.innerHTML = "Show Solution";
     }
   }
