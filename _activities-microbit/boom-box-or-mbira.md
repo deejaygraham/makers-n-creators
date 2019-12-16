@@ -34,14 +34,13 @@ before running.
 * Play a random tune using music.play and one of the pre-prepared items like music.NYAN
 
 
-<button onclick="show_hide_solution()">Show Solution</button>
 
-<div id="solution">
 ### Example Solution
+
+<button onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 
 {% include solutions/microbit/boom-box-or-mbira.py %}
 
 ```
-</div>
