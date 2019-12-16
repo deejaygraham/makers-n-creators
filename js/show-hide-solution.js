@@ -1,5 +1,4 @@
 window.onload = function() {
-    document.getElementById('b-navbar-fg').style.display = 'none';
     var x = document.getElementsByClassName("language-python")[0];
     x.style.display = 'none';
   };
