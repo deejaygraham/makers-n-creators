@@ -30,7 +30,7 @@ Refer to the speech API for details: https://microbit-micropython.readthedocs.io
 
 ### Example Solution
 
-<button onclick="show_hide_solution()">Show Solution</button>
+<button id="show" onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 

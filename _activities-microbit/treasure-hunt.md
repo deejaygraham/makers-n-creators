@@ -15,6 +15,11 @@ each one to a different number. Program the final microbit with the receiver cod
 
 You might find that the transmitter beacons have their radio power set too high so that it's too easy to find them. You can make it the hunt harder by reducing the power (see the example solution).
 
+### Requirements
+
+* Lots of microbits.
+
+
 ### Extensions
 
 * Change the receiver to remind you about the last clue
@@ -31,7 +36,7 @@ the groups don't interfere with each other.
 
 #### Beacon
 
-<button onclick="show_hide_solution()">Show Solution</button>
+<button id="show" onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 

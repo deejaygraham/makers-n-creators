@@ -13,6 +13,9 @@ The microbit radio can be used to send text over short distances. In this exerci
 the radio functions to send text messages to microbits in the immediate area. The same code should be
 used on each microbit for sending and receiving.
 
+### Requirements
+
+* Two microbits.
 
 ### Extensions
 
@@ -23,7 +26,7 @@ Hint: radio.config(channel=20)
 
 ### Example Solution
 
-<button onclick="show_hide_solution()">Show Solution</button>
+<button id="show" onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 

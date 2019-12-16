@@ -28,7 +28,7 @@ thunder and then calculate an approximate distance to the storm.
 
 ### Example Solution
 
-<button onclick="show_hide_solution()">Show Solution</button>
+<button id="show" onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 

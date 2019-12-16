@@ -13,6 +13,9 @@ The microbit radio can be used to send text over short distances. In this exerci
 sending pre-defined picture messages to all microbits in the local area. The same code can be used on
 each microbit for sending and receiving.
 
+### Requirements
+
+* Two microbits.
 
 ### Extensions
 
@@ -22,7 +25,7 @@ each microbit for sending and receiving.
 
 ### Example Solution
 
-<button onclick="show_hide_solution()">Show Solution</button>
+<button id="show" onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 

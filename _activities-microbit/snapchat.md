@@ -12,6 +12,9 @@ level: 3
 The microbit radio can be used to send text over short distances. In this exercise we will try sending images encoded as text
 messages to microbits in the local area. The same code can be used on each microbit for sending and receiving.
 
+### Requirements
+
+* Two microbits.
 
 ### Extensions
 
@@ -21,7 +24,7 @@ messages to microbits in the local area. The same code can be used on each micro
 
 ### Example Solution
 
-<button onclick="show_hide_solution()">Show Solution</button>
+<button id="show" onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 
