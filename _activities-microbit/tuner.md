@@ -30,6 +30,7 @@ note names and pitches.
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 

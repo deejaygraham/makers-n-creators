@@ -27,6 +27,8 @@ To put this onto a real bike, we would have to use some wiring so the microbit c
 
 #### Handlebar Microbit
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/bike-signaller-handlebars.py %}

@@ -12,8 +12,12 @@ level: 2
 We need to hide the stolen Death Star plans inside our micro:bit and not reveal them unless someone enters a secret code. If anyone else tries to
 access the secret plans we need to pretend we are just a simple robot.
 
+Include some simple graphics and animations.
+
 
 ### Example Solution
+
+<button onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 

@@ -21,6 +21,8 @@ messages to microbits in the local area. The same code can be used on each micro
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/snapchat.py %}

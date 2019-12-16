@@ -24,6 +24,8 @@ show customised images.
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/harry-potter-sorting-hat.py %}

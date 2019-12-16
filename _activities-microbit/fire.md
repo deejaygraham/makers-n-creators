@@ -24,6 +24,8 @@ Eventually the fire will "burn out" as the intensity decreases gradually. Use th
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/fire.py %}

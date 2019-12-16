@@ -31,6 +31,8 @@ the groups don't interfere with each other.
 
 #### Beacon
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/treasure-hunt-beacon.py %}

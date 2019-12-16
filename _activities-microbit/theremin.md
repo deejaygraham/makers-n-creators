@@ -34,6 +34,8 @@ pair of headphones between pin 0 and the GND pin on the edge of the microbit bef
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/theremin.py %}

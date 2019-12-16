@@ -28,6 +28,8 @@ thunder and then calculate an approximate distance to the storm.
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/storm-distance-calculator.py %}

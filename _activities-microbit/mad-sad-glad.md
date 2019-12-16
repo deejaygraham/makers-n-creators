@@ -22,6 +22,7 @@ each microbit for sending and receiving.
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
 
 ```python
 

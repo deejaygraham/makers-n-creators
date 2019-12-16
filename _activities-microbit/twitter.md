@@ -23,6 +23,8 @@ Hint: radio.config(channel=20)
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/twitter.py %}

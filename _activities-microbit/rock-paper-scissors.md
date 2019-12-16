@@ -29,6 +29,8 @@ selection so it is up to the players to decide who wins.
 
 ### Example Solution
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/rock-paper-scissors.py %}

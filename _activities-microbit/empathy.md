@@ -21,6 +21,8 @@ make them shake their blocks too.
 
 ### Example Solutions
 
+<button onclick="show_hide_solution()">Show Solution</button>
+
 ```python
 
 {% include solutions/microbit/empathy.py %}
