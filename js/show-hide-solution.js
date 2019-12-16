@@ -1,15 +1,16 @@
 window.onload = function() {
-    var x = document.getElementsByClassName("language-python")[0];
-    x.style.display = "none";
+    var code = document.getElementsByClassName("language-python")[0];
+    code.style.display = "none";
   };
 
 function show_hide_solution() {
-    var x = document.getElementsByClassName("language-python")[0];
-    if (x.style.display === "none") {
-      x.style.display = "block";
-      x.innerHTML = "Hide Solution";
+    var code = document.getElementsByClassName("language-python")[0];
+    var button = document.getElementById("show")[0];
+    if (code.style.display === "none") {
+      code.style.display = "block";
+      button.innerHTML = "Hide Solution";
     } else {
-      x.style.display = "none";
-      x.innerHTML = "Show Solution";
+      code.style.display = "none";
+      button.innerHTML = "Show Solution";
     }
   }
