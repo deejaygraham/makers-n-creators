@@ -3,7 +3,7 @@ layout: default
 title: Flea Race
 platform: microbit
 language: python
-level: 1
+level: 0
 ---
 ## Flea Race 
 
